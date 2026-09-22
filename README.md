@@ -6,7 +6,7 @@ This separate GitHub Pages site hosts the latest manually requested, commit-pinn
 - [Preview source receipt](https://stark-ai-de.github.io/agent-skills-preview/preview.json).
 - [Production catalog](https://stark-ai-de.github.io/agent-skills/) remains separate.
 
-The workflow is maintained in [the source repository](https://github.com/stark-ai-de/agent-skills/blob/642fe8f51e1156d2d6d984e4c6e44cb6a459cb31/.github/workflows/pages-preview.yml). Copy reviewed workflow updates here without modification. [Operator instructions](https://github.com/stark-ai-de/agent-skills/blob/642fe8f51e1156d2d6d984e4c6e44cb6a459cb31/docs/github-pages-previews.md) describe manual refresh and validation.
+The workflow is maintained in [the source repository](https://github.com/stark-ai-de/agent-skills/blob/93df909fe76432ef0ad45d1f3ef0a715ae14f18c/.github/workflows/pages-preview.yml). Copy reviewed workflow updates here without modification. [Operator instructions](https://github.com/stark-ai-de/agent-skills/blob/93df909fe76432ef0ad45d1f3ef0a715ae14f18c/docs/github-pages-previews.md) describe manual refresh and validation.
 
 Dispatch `pages-preview.yml` on `main` with `pr` and its exact current `source_sha`. Only open same-repository PRs are accepted. Builds have read-only permissions; a separate job publishes static artifacts through the protected `github-pages` environment. No deployment credentials from the source repository are needed.
 
